@@ -1,0 +1,126 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  padding-bottom: 100px;
+}
+.header {
+  position: fixed;
+  width: 100%;
+  height: 44px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: #74d4eb solid 1px;
+  background-color: #29bde0;
+  z-index: 2;
+}
+.header p {
+  font-size: 17px;
+  color: #fff;
+}
+.header img:nth-child(1) {
+  width: 26px;
+  height: 21px;
+  margin: 0 15px;
+}
+.header img:nth-child(3) {
+  width: 20px;
+  height: 20px;
+  margin: 0 15px;
+}
+.content {
+  padding: 56px 40px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #29bde0;
+  border-bottom: #dddddd 1px solid;
+}
+.content .victory {
+  position: relative;
+  width: 176px;
+  height: 103px;
+  background-image: url(../img/4.png);
+  display: flex;
+  justify-content: center;
+  z-index: 1;
+}
+.content .victory p {
+  position: absolute;
+  bottom: 6.5px;
+  font-size: 24px;
+  color: #fff;
+}
+.content .tip {
+  width: 100%;
+  font-size: 16.5px;
+  color: #ffc865;
+  margin: 15px 0 30px 0;
+  text-align: left;
+}
+.content .result {
+  width: 100%;
+  font-size: 13px;
+  color: #fff;
+}
+.content .result .member {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 5px 0;
+}
+.content .result .member p {
+  white-space: nowrap;
+}
+.content .result .words {
+  padding-bottom: 10px;
+}
+.line {
+  padding: 6px 40px;
+  border-bottom: #dddddd 1px solid;
+}
+.line .up {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.line .up .lt {
+  font-size: 15px;
+}
+.line .up .rt {
+  font-size: 10px;
+  color: #c7c7c7;
+}
+.line .down {
+  padding: 10px 0;
+  font-size: 13px;
+  color: #a6a6a6;
+}
+.footer {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  height: 60px;
+  background-color: rgba(153, 223, 240, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer a {
+  flex: 1;
+  padding: 12px;
+  background-color: #fbb435;
+  margin: 0 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+  border-radius: 5px;
+}
+.footer a:nth-child(1) {
+  background-color: #f66f6f;
+}
+/*# sourceMappingURL=trailerpage.css.map */

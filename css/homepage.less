@@ -4,6 +4,7 @@
 }
 body{
     display:flex;
+    overflow: hidden;
 }
 
 .btn-menu{
@@ -22,6 +23,7 @@ body{
 }
 .btn-menu:checked + .hidden{
     display:block;
+    transition:display 2s;
 }
 
 .hidden{
@@ -29,7 +31,7 @@ body{
     display:none;
     .floor{
         height:26px;
-        width:100%;
+        width:85%;
         padding:5px 10% 5px 5%;
         border-bottom:#999 1px solid;
         img:nth-child(1){
