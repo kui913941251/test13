@@ -2,11 +2,11 @@
   padding: 0;
   margin: 0;
 }
-body {
+.all {
   display: flex;
   overflow: hidden;
 }
-.btn-menu {
+.all .btn-menu {
   position: absolute;
   top: 15px;
   left: 10px;
@@ -17,49 +17,49 @@ body {
   -moz-appearance: none;
   -webkit-appearance: none;
 }
-.btn-menu:checked {
+.all .btn-menu:checked {
   left: 62vw;
 }
-.btn-menu:checked + .hidden {
+.all .btn-menu:checked + .hidden {
   display: block;
   transition: display 2s;
 }
-.hidden {
+.all .hidden {
   min-width: 60vw;
   display: none;
 }
-.hidden .floor {
+.all .hidden .floor {
   height: 26px;
   width: 85%;
   padding: 5px 10% 5px 5%;
   border-bottom: #999 1px solid;
 }
-.hidden .floor img:nth-child(1) {
+.all .hidden .floor img:nth-child(1) {
   float: left;
   width: 24px;
   height: 24px;
 }
-.hidden .floor img:nth-child(3) {
+.all .hidden .floor img:nth-child(3) {
   float: right;
   width: 14px;
   height: 23px;
 }
-.hidden .floor span {
+.all .hidden .floor span {
   margin-left: 10px;
   color: #29BDE0;
 }
-.right {
+.all .right {
   min-width: 100vw;
 }
-.right .header {
+.all .right .header {
   height: 44px;
   background-color: #29bde0;
 }
-.right .content {
+.all .right .content {
   padding: 15px 17.5px 30px;
   background-color: #f0f0f0;
 }
-.right .content .last-time {
+.all .right .content .last-time {
   position: relative;
   display: flex;
   justify-content: center;
@@ -67,34 +67,34 @@ body {
   background-color: #fff;
   border: #c9c9c9 1px solid;
 }
-.right .content .last-time p {
+.all .right .content .last-time p {
   font-size: 17px;
   color: #9a9a9a;
 }
-.right .content .last-time img {
+.all .right .content .last-time img {
   position: absolute;
   right: 14px;
 }
-.right .content .type {
+.all .right .content .type {
   margin-top: 13px;
   border: #c9c9c9 1px solid;
   background-color: #fff;
 }
-.right .content .type .title {
+.all .right .content .type .title {
   padding: 15px 0;
   border-bottom: 1px #fdd793 solid;
   text-align: center;
   font-size: 19px;
   color: #fbb435;
 }
-.right .content .type .center {
+.all .right .content .type .center {
   position: relative;
   padding: 0 27px;
 }
-.right .content .type .center .line {
+.all .right .content .type .center .line {
   margin-top: 15px;
 }
-.right .content .type .center .line a {
+.all .right .content .type .center .line a {
   display: block;
   padding: 25px 0;
   text-decoration: none;
@@ -103,29 +103,29 @@ body {
   color: #fff;
   text-align: center;
 }
-.right .content .type .center .line p {
+.all .right .content .type .center .line p {
   margin-top: 13px;
   font-size: 12px;
   color: #787878;
   text-align: center;
 }
-.right .content .type .center img {
+.all .right .content .type .center img {
   position: absolute;
   right: 4px;
   top: 42%;
 }
-.right .content .type .circle {
+.all .right .content .type .circle {
   display: flex;
   justify-content: center;
 }
-.right .content .type .circle div {
+.all .right .content .type .circle div {
   margin: 7px 3px;
   width: 9px;
   height: 9px;
   background-color: #f0f0f0;
   border-radius: 50%;
 }
-.right .content .type .circle div:nth-child(1) {
+.all .right .content .type .circle div:nth-child(1) {
   background-color: #69d1e9;
 }
 /*# sourceMappingURL=homepage.css.map */
